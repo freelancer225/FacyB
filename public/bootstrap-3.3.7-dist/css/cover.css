@@ -1,0 +1,121 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+
+body {
+
+ 
+  font-family: 'montserrat';
+}
+body {
+  color: #fff;
+  text-align: center;
+  
+}
+
+.navbar{
+  position: relative;
+  min-height: 70px !important;
+  box-shadow: 1px -1px 4px rgba(0, 0, 0, 0.7) !important;
+}
+
+.navbar-default {
+    background-color: #fff !important;
+    border-color: none !important;
+}
+
+.circle-nav{
+  width: 130px;
+  min-height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+}
+
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #3480c7 !important;
+    background-color: none !important;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.starter-template {
+  padding: 10% 15px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.9);
+}
+
+.starter-template h1{
+
+  text-transform: uppercase;
+  font-family: 'montserrat black';
+  letter-spacing: -3px;
+  font-size: 41px;
+}
+.starter-template p{
+
+  text-transform: uppercase;
+  font-family: 'montserrat';
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 25px;
+  margin-left:-440px !important;
+  margin-top: -10px !important;
+}
+.form-accueil{
+  background-color: rgba(229,229,229, 0.7) !important;
+  font-size: 16px !important;
+  height: 50px;
+  border:1px solid #a5a5a5 !important;
+  color: #333 !important;
+}
+.btnAccueil{
+  width: 150px;
+  
+  padding: 12px 17px;
+  font-family: 'montserrat';
+  border-radius: 10px;
+  background-color:rgb(255, 255, 255, 0.0);
+  border:2px solid #fff;
+  font-weight: bold;
+}
+
+.btnAccueil:hover{
+   background-color:#3480c7;
+   transition: ease-in 0.5s;
+   border-color: #3480c7;
+  }
+
+a:hover
+{
+  text-decoration: none;
+}

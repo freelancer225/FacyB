@@ -1,0 +1,223 @@
+/* a,
+a:focus,
+a:hover {
+  color: #fff;
+} */
+
+h1,h2{
+	color:#333;
+}
+
+/* Custom default button */
+/*.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;  Prevent inheritance from `body` 
+  background-color: #fff;
+  border: 1px solid #fff;
+}*/
+
+
+/*
+ * Base structure
+ */
+
+
+body {
+
+ color: #fff;
+  font-family: 'montserrat';
+
+}
+
+.greyBg {
+    margin-top: -20px;
+    padding-top: 2%;
+}
+
+.greyBg {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.navbar{
+  min-height: 70px !important;
+  box-shadow: 1px -1px 4px rgba(0, 0, 0, 0.7) !important;
+  position: relative;
+}
+
+.navbar-default {
+    background-color: #fff !important;
+    border-color: none !important;
+}
+
+.circle-nav{
+  width: 130px;
+  min-height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #3480c7 !important;
+    background-color: none !important;
+}
+.brand {
+    position: absolute;
+    left: 47%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+#users{
+	margin-top: 50px;
+	
+}
+
+h3, p{
+  font-family: 'montserrat';
+  letter-spacing: -1px;
+  color: black;
+  text-align: left;
+}
+
+
+.photo {
+  border-radius: 45px;
+  margin-right: 20px;
+  width: 90px;
+  height:90px
+}
+
+.name {
+  font-weight: 700;
+}
+.expertise-label {
+  display:block;
+  font-weight: 700;
+  margin-top:10px;
+}
+.btn-more {
+  margin-top:10px;
+  width: 100%
+}
+.label {
+  font-weight: normal;
+}
+
+
+
+.form-signin {
+  max-width: 800px;
+  padding: 25px;
+  margin: 10% auto;
+  background-color: white;
+  border:1px solid #eee;
+      border-bottom: 2px solid #ddd !important;
+    border-radius: 0px;
+}
+.form-signin-heading{
+		color:#333;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: -2px;
+		text-align: center;
+}
+.form-signin label{
+	color: #333;
+}
+
+.form-signin a{
+	color: #207fc6;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+}
+
+footer {
+    width: 100%;
+    -moz-box-shadow: inset 0 5px 3px -8px #000, inset 0 5px 3px -8px #000;
+    -webkit-box-shadow: inset 0 5px 3px -8px #000, inset 0 5px 3px -8px #000;
+    box-shadow: inset 0 5px 3px -8px #000, inset 0 5px 3px -8px #000;
+    padding-top: 2em;
+    position: absolute;
+    
+}
+
+footer h5 {
+    border-bottom: 1px solid #e5e5e5;
+    clear: both;
+    color: #000;
+    font-size: 1.1em;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 2em;
+    
+}
+
+.ft-link ul li a {
+    font-size: 13px;
+    line-height: 1.8em;
+    display: block;
+    color: #666;
+
+}
+
+footer ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+	text-decoration: none!important;
+    outline: 0!important;
+}
+
+.social {
+    margin: 10px 0px 20px 0;
+}
+
+.newsletter {
+    float: left;
+    width: 95%;
+    margin: 20px 0px 10px;
+}
+.newsletter p {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0 0 3px 0;
+}
+.newsletter input[type="text"] {
+    background: #f4f4f4;
+    border: medium none;
+    float: left;
+    padding: 10px;
+    border-radius: 0px!important;
+}
+
+.copyrt {
+    width: auto;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+/*listing starts */
+.breadcrumbs {float: left;padding: 10px 0px;width: 100%;  margin: 10px 0;}
+.breadcrumbs ul {float: none;margin: 0;padding: 0;position: relative;text-align: left;}
+.breadcrumbs ul li {color: #666;float: left;font-size: 13px;line-height: 1.45em;list-style-type: none;}
+.breadcrumbs ul li span.dot {color: #666;display: inline-block;margin: 0 8px;}
+.breadcrumbs ul li a {color: #666;text-decoration: none;}
+.breadcrumbs ul li a:hover {text-decoration: underline;}
